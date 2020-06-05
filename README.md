@@ -21,3 +21,5 @@ python3 main_sql.py
 ## ABOUT:<br/>
 Currently there are two main scripts:
 maincsv.py and mainsql.py. They use CSV and SQLite respectively for storing data. SQLite version is much more up to date. Currently it scans for any tweets under 'BLM Protests' and will store the tweets it finds as long as it doesn't already exist in the database (this is to reduce the database hundreds of thousands of retweets!). It stores the date the tweet was created, tweet id, time the tweet was archived, tweet content and the username of the author.
+
+```mediadownloadtest.py``` is just a script I used while testing the media function before implementing. It's not needed but I left it in there.
