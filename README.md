@@ -9,7 +9,8 @@
 
 All of the above can be installed using ```pip install PACKAGENAMEHERE```
 
-**Twitter developer account<br/>**: https://developer.twitter.com/en
+**Twitter developer account:**<br/>
+https://developer.twitter.com/en
 
 ## USE:<br/>
 To use this bot you need to create a twitter developer account and submit an application (see Requirements for the link!). Open the ```main_sql.py``` script and input your twitter authentication credentials in their respective fields. To change the search query, change the ```textQuery``` variable. Save and exit the editor. Now just run the 'main_sql.py' script as you would any normal python script! It will create a database with the title as the search query you have entered and a media folder to store any media. **At the moment it only supports downloading of photos but video is on my to-do list!**
